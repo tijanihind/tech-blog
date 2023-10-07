@@ -1,35 +1,56 @@
-# TechBlog
+# CMS-style Blog Site
+A comprehensive Content Management System (CMS) style blog site with full user authentication and CRUD capabilities for blog posts and comments.
 
-## Criteria
+## Table of Contents
+## Features
+## Prerequisites
+## Usage
+## Feedback & Contributions
 
-Given CMS-style blog site
-I visit the site for the first time, presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in, click on the homepage option. I am taken to the homepage, click on any other links in the navigation. I am prompted to either sign up or sign in. I choose to sign up
-THEN I am prompted to create a username and password
-WHEN I click on the sign-up button
-THEN my user credentials are saved and I am logged into the site
-WHEN I revisit the site at a later time and choose to sign in
-THEN I am prompted to enter my username and password
-WHEN I am signed in to the site
-THEN I see navigation links for the homepage, the dashboard, and the option to log out
-WHEN I click on the homepage option in the navigation
-THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created
-WHEN I click on an existing blog post
-THEN I am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment
-WHEN I enter a comment and click on the submit button while signed in
-THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
-WHEN I click on the dashboard option in the navigation
-THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
-WHEN I click on the button to add a new blog post
-THEN I am prompted to enter both a title and contents for my blog post
-WHEN I click on the button to create a new blog post
-THEN the title and contents of my post are saved and I am taken back to an updated dashboard with my new blog post
-WHEN I click on one of my existing posts in the dashboard
-THEN I am able to delete or update my post and taken back to an updated dashboard
-WHEN I click on the logout option in the navigation
-THEN I am signed out of the site
-WHEN I am idle on the site for more than a set time
-THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
+## Features
 
-```
+User Authentication: Seamless sign up and login functionality.
+Dynamic Home Page: Displays existing blog posts with options to read and comment.
+User Dashboard: Allows users to manage their blog posts and add new ones.
+Comments: Users can leave comments on blog posts.
+Idle Timeout: Ensures users are prompted to log in after periods of inactivity.
 
-```
+## Prerequisites
+
+Modern web browser.
+Existing user account or the ability to sign up.
+
+## Usage
+
+First Visit: On your initial visit, you'll be presented with the homepage showcasing any existing blog posts. Navigation links for the homepage, dashboard, and login options are provided.
+
+Homepage Access: Click on the homepage option to refresh and view all available blog posts.
+
+User Sign Up:
+
+For new users, click on the signup option.
+Provide a desired username and password.
+After successful registration, you'll be automatically logged in.
+Returning Visit & Sign In:
+
+Upon revisiting the site, click on the login option.
+Enter your registered username and password.
+Dashboard:
+
+Accessible after logging in.
+Lists all your blog posts with options to create new posts, update existing ones, or delete them.
+Creating a New Blog Post:
+
+In the dashboard, click on the option to add a new blog post.
+Provide a title and contents for your post.
+Save to view your post in the dashboard and on the homepage.
+Commenting on a Blog Post:
+
+Click on any blog post title from the homepage.
+View the post's details and leave comments as desired.
+Idle Timeout: After a set period of inactivity, you can still view posts and comments, but you'll need to log in again to create, update, or delete posts.
+
+Logging Out: Use the logout option in the navigation to securely sign out of your session.
+
+## Feedback & Contributions
+Feedback is always welcome. If you'd like to contribute or spot any issues, please raise an issue or submit a pull request.
