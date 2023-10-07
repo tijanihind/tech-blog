@@ -1,0 +1,17 @@
+<div>
+  {{#each this}}
+    <div class="card">
+
+      <section class="card-body">
+        <div class="text">
+          {{body}}
+        </div>
+        <div class="meta">
+          -{{user.username}}
+          on
+          {{created_at}}
+        </div>
+      </section>
+    </div>
+  {{/each}}
+</div>

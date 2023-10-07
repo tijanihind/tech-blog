@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Tech Blog Update",
+    "body": "Lorem ipsum concerning Tech blog",
+    "userId": 1
+  },
+  {
+    "title": "This Blog is for Tech",
+    "body": "Techy Blog Lorem ipsum concerning Tech blog",
+    "userId": 2
+  },
+  {
+    "title": "What is Tech Blog",
+    "body": "Tech Blog Lorem ipsum concerning Tech blog",
+    "userId": 3
+  }
+]

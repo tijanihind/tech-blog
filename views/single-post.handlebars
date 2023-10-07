@@ -1,0 +1,19 @@
+{{> post post}}
+
+{{#if loggedIn}}
+<div class="card">
+    <form id="new-comment-form" class="card-body">
+        <label for="" class="form-label">Comments</label>
+        <input hidden value="{{post.id}}"  name="post-id" type="text" />
+        <input name="comment-body" type="text"  class="form-textarea"/>
+        <button class="btn" type="submit">Submit</button>
+    </form>
+</div>
+{{/if}}
+
+{{> comments post.comments}}
+
+{{#if loggedIn}}
+<script src="/js/comment.js"></script>
+{{/if}}
+

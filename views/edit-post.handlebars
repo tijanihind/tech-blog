@@ -1,0 +1,27 @@
+<div class="card">
+  <h3 class="card-header">Edit Posts</h3>
+  <form id="edit-post-form" class="card-body">
+    <input hidden name="post-id" type="text" value="{{post.id}}" />
+    <label for="post-title" class="form-label">Title</label>
+    <input
+      id="post-title"
+      value="{{post.title}}"
+      type="text"
+      name="post-title"
+      class="form-input"
+    />
+
+    <label for="form-body" class="form-label">Content</label>
+    <textarea
+      name="post-body"
+      id="form-body"
+      cols="30"
+      rows="10"
+      class="form-textarea"
+    >{{post.body}}</textarea>
+    <button class="btn" type="submit">Update</button>
+    <button id="delete-btn" class="btn">Delete</button>
+  </form>
+</div>
+
+<script src="/js/edit.js"></script>
